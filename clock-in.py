@@ -27,7 +27,7 @@ class ClockIn(object):
     SAVE_URL = "https://healthreport.zju.edu.cn/ncov/wap/default/save"
  #   captcha_url = "https://healthreport.zju.edu.cn/ncov/wap/default/code"
     HEADERS = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
     }
     def __init__(self, username, password):
         self.username = username
